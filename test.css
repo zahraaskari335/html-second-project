@@ -1,0 +1,28 @@
+*{text-align: center; font-size: 1.3em;}
+.h1{font-family: serif;
+font-style: oblique;}
+.h2{font-family: arial, sans-serif;
+font-weight: bolder;}
+.h3{font-family: "times new roman", monospace;
+font-weight: bold;}
+.h4{font-family: cursive;
+font-weight: lighter;}
+.h5{font-family: fantasy;
+font-variant: small-caps;}
+.a{
+   text-decoration:overline dotted #446c97 ; 
+   text-transform: capitalize;
+   text-align: justify;
+    text-indent: 5pc; /*فقط مربوط خط اول میشود  */
+   letter-spacing: -1px;
+   line-height: 40px;
+   word-spacing: 10px;
+   white-space: wrap;}
+.i{
+    text-shadow: 3px 5px 9px rgb(5, 120, 250),
+    3px 5px 9px green;
+    text-transform: capitalize;
+    text-align: center;
+    font-size: 40px;
+    line-height: 44px;
+}
