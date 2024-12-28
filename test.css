@@ -26,3 +26,9 @@ font-variant: small-caps;}
     font-size: 40px;
     line-height: 44px;
 }
+*{background-image: url("asas.jpg");
+    background-position: right top;
+    background-repeat: repeat-x;  
+    image-orendering: flip;
+background-attachment: scroll;}
+        /* افقی و &  REPEAT Y عمودی */
