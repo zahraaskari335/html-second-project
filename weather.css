@@ -1,0 +1,15 @@
+body{
+    color: white;
+}
+.all{
+    width: 95%;
+    margin: auto;
+    background-color:rgb(83, 82, 82) ;
+}
+div h1:first-child{
+    text-align: center;
+    font-family: IranNastaliq;
+}
+hr{
+    color:white;
+}
