@@ -1,15 +1,36 @@
-body{
-    color: white;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
 }
-.all{
-    width: 95%;
-    margin: auto;
-    background-color:rgb(83, 82, 82) ;
+nav{
+    min-height: 80px;
+    background-color: white;
 }
-div h1:first-child{
-    text-align: center;
+nav ul{
+    float: right;
     font-family: IranNastaliq;
+    font-size: 24px;
 }
-hr{
-    color:white;
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin-right: 50px;
+}
+.logo{
+float: right;
+margin-right: 20px;
+line-height: 80px;
+font-size: 30px;
+font-family: IranNastaliq;
+}
+nav ul li a{
+    color: black;
+}
+a:hover{
+    border-bottom: 2px solid black;
+    background-color: gray;
+    color: white;
+    border-radius: 5px;
 }
