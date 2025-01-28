@@ -40,25 +40,42 @@ h1{
     background-color: rgb(160, 157, 157) ;
 }
 .all{
-    width: 100%;
+    text-wrap: nowrap;
+    overflow-x: scroll;
 }
 img{
-    width: 30%;
-    margin: 30px;
-    border-radius: 30px;
+    border-radius: 35px;
+    padding: 20px;
+    height: 400px ;
+    display: inline;
 }
+i{
+    text-align: center;
+}
+
 img:hover{
     transform: scale(1.08);
     transition: 1.5s;
 }
-.img{
-    display: inline;
+
+p{
+    text-align:right;
+    width: 90%;
+    margin: auto;
+    font-size: 23px;
+    color: rgb(43, 42, 42);
+    background-color: rgb(237, 246, 248);
+    padding: 20px 60px;
+    border: 3px solid black;
 }
-i{
-    display: inline;
-    margin-left: -350px;
-    margin-right: 80px;
-    padding-top: 15px;
-    padding-bottom: 20px;
+p::first-letter{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+}
+p::first-line{
+    font-weight: bolder;
+}
+p:hover{
+    background-color: rgb(208, 228, 245);
 }
 
